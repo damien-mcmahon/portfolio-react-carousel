@@ -6,14 +6,16 @@
 // Uncomment the following lines to use the react test utilities
 // import TestUtils from 'react-addons-test-utils';
 import createComponent from 'helpers/shallowRenderHelper';
-
-import CarouselComponent from 'components/Carousel.js';
+import { Carousel } from 'components/Carousel.js';
 
 describe('CarouselComponent', () => {
   let component;
+  let mockCarouselData = {
+    "items": [{"image": "test.png", "title": "TEST #1"}]
+  };
 
   beforeEach(() => {
-    component = createComponent(CarouselComponent);
+    component = createComponent(Carousel, {carousel: mockCarouselData});
   });
 
   it('should have its component name as default className', () => {

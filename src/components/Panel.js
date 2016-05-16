@@ -5,7 +5,7 @@ require('styles//Panel.scss');
 import React, { Component, PropTypes } from 'react';
 import { render } from 'react-dom';
 
-class Panel extends Component {
+export default class Panel extends Component {
   render() {
     let { title, image } = this.props.content;
     let panelCSSStyle = {
@@ -21,7 +21,4 @@ class Panel extends Component {
 }
 
 // Uncomment properties you need
-Panel.propTypes = {};
-// PanelComponent.defaultProps = {};
-
-export default Panel;
+// Panel.propTypes = {};

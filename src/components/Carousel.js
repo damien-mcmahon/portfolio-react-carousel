@@ -19,7 +19,7 @@ const FORWARD_DIRECTION = 'forward';
 const BACKWARD_DIRECTION = 'back';
 const ANIMATION_DURATION = 300;
 
-class Carousel extends Component {
+export class Carousel extends Component {
 	constructor(props) {
 		super(props);
 

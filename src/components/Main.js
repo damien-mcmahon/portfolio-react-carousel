@@ -7,7 +7,7 @@ import { connect } from 'react-redux';
 import { loadCarouselData } from '../actions/carousel.js';
 import CarouselData from 'json!../../stubs/images.json';
 
-class App extends Component {
+export class App extends Component {
   componentDidMount() {
 		const { dispatch } = this.props;
 		dispatch(loadCarouselData(CarouselData));

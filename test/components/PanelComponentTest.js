@@ -6,14 +6,13 @@
 // Uncomment the following lines to use the react test utilities
 // import TestUtils from 'react-addons-test-utils';
 import createComponent from 'helpers/shallowRenderHelper';
-
-import PanelComponent from 'components/Panel.js';
+import Panel from 'components/Panel';
 
 describe('PanelComponent', () => {
   let component;
 
   beforeEach(() => {
-    component = createComponent(PanelComponent);
+    component = createComponent(Panel, {content: {title: 'test'}});
   });
 
   it('should have its component name as default className', () => {
