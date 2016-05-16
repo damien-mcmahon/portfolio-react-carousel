@@ -1,0 +1,24 @@
+{
+	"items": [
+		{
+			"image": "/assets/img/carousel-1.png",
+			"title": "Carousel Image #1"
+		},
+		{
+			"image": "/assets/img/carousel-2.jpg",
+			"title": "Carousel Image #2"
+		},
+		{
+			"image": "/assets/img/carousel-3.jpg",
+			"title": "Carousel Image #3"
+		},
+		{
+			"image": "/assets/img/carousel-4.jpg",
+			"title": "Carousel Image #4"
+		},
+		{
+			"image": "/assets/img/carousel-5.jpg",
+			"title": "Carousel Image #5"
+		}
+	]
+}

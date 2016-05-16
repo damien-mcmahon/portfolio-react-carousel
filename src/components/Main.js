@@ -1,22 +1,35 @@
 require('normalize.css/normalize.css');
 require('styles/App.css');
 
-import React from 'react';
+import React, { Component } from 'react';
+import { render } from 'react-dom';
+import { connect } from 'react-redux';
+import { loadCarouselData } from '../actions/carousel.js';
 
-let yeomanImage = require('../images/yeoman.png');
+class App extends Component {
+  componentDidMount() {
+		const { dispatch } = this.props;
+		dispatch(loadCarouselData());
+	}
 
-class AppComponent extends React.Component {
   render() {
     return (
-      <div className="index">
-        <img src={yeomanImage} alt="Yeoman Generator" />
-        <div className="notice">Please edit <code>src/components/Main.js</code> to get started!</div>
-      </div>
+      <div className="container">
+				<div className="row">
+					<div className="col-md-12">
+						{this.props.children}
+					</div>
+				</div>
+			</div>
     );
   }
 }
 
-AppComponent.defaultProps = {
+App.defaultProps = {
 };
 
-export default AppComponent;
+const appStateToProps = (state) => ({
+	carousel: state.carousel
+});
+
+export default connect(appStateToProps)(App);

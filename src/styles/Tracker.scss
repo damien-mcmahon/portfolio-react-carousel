@@ -1,0 +1,22 @@
+$tracker-bg: rgba(#000, .5);
+$tracker-active-bg: #000;
+
+.tracker--wrapper {
+  padding: 5px;
+
+  .tracker {
+    display: inline-block;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background: $tracker-bg;
+    margin: 2px;
+    cursor: pointer;
+
+    &.is-active {
+      background: $tracker-active-bg;
+      cursor: default;
+    }
+  }
+
+}

@@ -1,0 +1,22 @@
+$rotator-bg: rgba(#000, .5);
+$rotator-colour: #FFF;
+
+.rotator--wrapper {
+  height: 5rem;
+  width: 5rem;
+  background: $rotator-bg;
+  line-height: 5rem;
+  text-align: center;
+
+  &.is-disabled {
+    opacity: .25;
+  }
+
+  .rotator--char {
+    padding:0;
+    margin: 0;
+    font-size: 2rem;
+    color: $rotator-colour;
+    font-weight: 800;
+  }
+}

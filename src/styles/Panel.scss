@@ -1,0 +1,27 @@
+$panel-bg: #FFF;
+$panel-title-bg: rgba(#000, .5);
+$panel-title-colour: #FFF;
+$panel-title-height: 3rem;
+
+.panel--wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 0;
+  width: 100%;
+  height: 50vh;
+  background-size: auto;
+
+  .panel--title {
+    position: absolute;
+    bottom: 0;
+    color: #FFF;
+    background: $panel-title-bg;
+    width: 100%;
+    font-size: 1.2rem;
+    height: $panel-title-height;
+    margin: 0;
+    padding: 5px;
+  }
+}
