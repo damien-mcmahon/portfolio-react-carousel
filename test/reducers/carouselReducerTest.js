@@ -18,8 +18,6 @@ describe("Reducers::Carousel", () => {
       carousel: carouselData
     };
 
-    expect(
-      reducer({},loadCarouselAction)
-    ).to.deep.equal(carouselData);
+    expect(reducer({},loadCarouselAction)).to.deep.equal(carouselData);
   });
 });
