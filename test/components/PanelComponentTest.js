@@ -7,7 +7,7 @@
 // import TestUtils from 'react-addons-test-utils';
 import createComponent from 'helpers/shallowRenderHelper';
 
-import PanelComponent from 'components//Panel.js';
+import PanelComponent from 'components/Panel.js';
 
 describe('PanelComponent', () => {
   let component;

@@ -7,7 +7,7 @@
 // import TestUtils from 'react-addons-test-utils';
 import createComponent from 'helpers/shallowRenderHelper';
 
-import TrackerComponent from 'components//Tracker.js';
+import TrackerComponent from 'components/Tracker.js';
 
 describe('TrackerComponent', () => {
   let component;

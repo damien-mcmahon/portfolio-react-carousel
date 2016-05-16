@@ -7,7 +7,7 @@
 // import TestUtils from 'react-addons-test-utils';
 import createComponent from 'helpers/shallowRenderHelper';
 
-import RotatorComponent from 'components//Rotator.js';
+import RotatorComponent from 'components/Rotator.js';
 
 describe('RotatorComponent', () => {
   let component;

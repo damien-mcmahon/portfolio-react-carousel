@@ -7,7 +7,7 @@
 // import TestUtils from 'react-addons-test-utils';
 import createComponent from 'helpers/shallowRenderHelper';
 
-import CarouselComponent from 'components//Carousel.js';
+import CarouselComponent from 'components/Carousel.js';
 
 describe('CarouselComponent', () => {
   let component;
