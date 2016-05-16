@@ -1,7 +1,7 @@
 import * as actions from 'actions/carousel';
 import * as types from 'actions/carousel';
 
-describe('Actions', () => {
+describe('Actions::Carousel', () => {
   it('should create an action to load images', () => {
     const carouselData = {
       "items": [
