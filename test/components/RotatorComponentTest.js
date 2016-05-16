@@ -7,7 +7,7 @@
 // import TestUtils from 'react-addons-test-utils';
 import createComponent from 'helpers/shallowRenderHelper';
 
-import RotatorComponent from 'components//RotatorComponent.js';
+import RotatorComponent from 'components//Rotator.js';
 
 describe('RotatorComponent', () => {
   let component;
@@ -17,6 +17,6 @@ describe('RotatorComponent', () => {
   });
 
   it('should have its component name as default className', () => {
-    expect(component.props.className).to.equal('rotator-component');
+    expect(component.props.className).to.contain('rotator--wrapper');
   });
 });

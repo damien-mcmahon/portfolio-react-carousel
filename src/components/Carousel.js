@@ -4,9 +4,9 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import { connect } from 'react-redux';
 import ReactCssTransitionGroup from 'react-addons-css-transition-group';
-import Panel from './panel';
-import Rotator from './rotator';
-import Tracker from './tracker';
+import Panel from './Panel';
+import Rotator from './Rotator';
+import Tracker from './Tracker';
 
 require('styles//Carousel.scss');
 

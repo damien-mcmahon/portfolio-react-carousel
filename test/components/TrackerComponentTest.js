@@ -7,7 +7,7 @@
 // import TestUtils from 'react-addons-test-utils';
 import createComponent from 'helpers/shallowRenderHelper';
 
-import TrackerComponent from 'components//TrackerComponent.js';
+import TrackerComponent from 'components//Tracker.js';
 
 describe('TrackerComponent', () => {
   let component;
@@ -17,6 +17,6 @@ describe('TrackerComponent', () => {
   });
 
   it('should have its component name as default className', () => {
-    expect(component.props.className).to.equal('tracker-component');
+    expect(component.props.className).to.contain('tracker--wrapper');
   });
 });

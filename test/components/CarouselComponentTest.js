@@ -7,7 +7,7 @@
 // import TestUtils from 'react-addons-test-utils';
 import createComponent from 'helpers/shallowRenderHelper';
 
-import CarouselComponent from 'components//CarouselComponent.js';
+import CarouselComponent from 'components//Carousel.js';
 
 describe('CarouselComponent', () => {
   let component;
@@ -17,6 +17,6 @@ describe('CarouselComponent', () => {
   });
 
   it('should have its component name as default className', () => {
-    expect(component.props.className).to.equal('carousel-component');
+    expect(component.props.className).to.equal('carousel--wrapper');
   });
 });

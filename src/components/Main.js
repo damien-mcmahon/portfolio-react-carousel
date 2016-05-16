@@ -5,11 +5,12 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import { connect } from 'react-redux';
 import { loadCarouselData } from '../actions/carousel.js';
+import CarouselData from 'json!../../stubs/images.json';
 
 class App extends Component {
   componentDidMount() {
 		const { dispatch } = this.props;
-		dispatch(loadCarouselData());
+		dispatch(loadCarouselData(CarouselData));
 	}
 
   render() {

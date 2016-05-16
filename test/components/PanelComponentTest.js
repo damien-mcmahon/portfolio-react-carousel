@@ -7,7 +7,7 @@
 // import TestUtils from 'react-addons-test-utils';
 import createComponent from 'helpers/shallowRenderHelper';
 
-import PanelComponent from 'components//PanelComponent.js';
+import PanelComponent from 'components//Panel.js';
 
 describe('PanelComponent', () => {
   let component;
@@ -17,6 +17,6 @@ describe('PanelComponent', () => {
   });
 
   it('should have its component name as default className', () => {
-    expect(component.props.className).to.equal('panel-component');
+    expect(component.props.className).to.contain('panel--wrapper');
   });
 });
