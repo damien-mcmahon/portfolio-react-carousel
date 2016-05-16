@@ -1,23 +1,23 @@
 {
 	"items": [
 		{
-			"image": "/assets/img/carousel-1.png",
-			"title": "Carousel Image #1"
+			"image": "images/dubai.png",
+			"title": "A picture of Dubai"
 		},
 		{
-			"image": "/assets/img/carousel-2.jpg",
+			"image": "images/yeoman.png",
 			"title": "Carousel Image #2"
 		},
 		{
-			"image": "/assets/img/carousel-3.jpg",
+			"image": "images/dubai.png",
 			"title": "Carousel Image #3"
 		},
 		{
-			"image": "/assets/img/carousel-4.jpg",
+			"image": "images/dubai.png",
 			"title": "Carousel Image #4"
 		},
 		{
-			"image": "/assets/img/carousel-5.jpg",
+			"image": "images/dubai.png",
 			"title": "Carousel Image #5"
 		}
 	]
